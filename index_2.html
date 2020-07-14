@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript Basics</title>
+</head>
+
+<body>
+
+    <script>
+        'use strict';
+
+
+        while (true) {
+            // 日本の首都は？と画面に表示してanswerにユーザーが入力
+            let answer = prompt('日本の首都は？');
+            //answerから東京かtokyoを判断
+            if (answer === '東京' || answer === 'tokyo') {
+                //trueだったら正解です!と画面に表示
+                window.alert('正解です!');
+            }
+            else {
+                //falseだったら不正解です!と画面に表示
+                window.alert('不正解です!');
+            }
+        }
+
+
+    </script>
+</body>
+
+</html>
